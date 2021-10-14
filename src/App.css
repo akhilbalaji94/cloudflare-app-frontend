@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.AppBox {
+  border: #333 solid 1px;
+  height: 120px;
+  width: 720px;
+  position: relative;
+  background-color: #fff;
+}
+
+.AppTitle {
+  line-height: 40px;
+  padding-left: 6px;
+  position: absolute;
+  top: 0;
+  left: 120px;
+  width: 600px;
+  vertical-align: middle;
+}
+
+.AppTitle h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.AppBrief {
+  height: 60px;
+  width: 600px;
+  position: absolute;
+  top: 40px;
+  left: 120px;
+  overflow: hidden;
+}
+.AppBrief p { padding-left: 6px; }
+
+.AppMeta {
+  height: 20px;
+  width: 600px;
+  position: absolute;
+  top: 100px;
+  left: 120px;
+  font-size: 11px;
+  line-height: 20px;
+  vertical-align: middle;
+}
